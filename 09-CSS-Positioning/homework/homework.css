@@ -7,13 +7,18 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
+#header {
+    position: static;
+}
 
 
 
