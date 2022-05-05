@@ -1,5 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
+const { stringify } = require("git-url-parse");
+
 // Crea una variable "string", puede contener lo que quieras:
 const nuevaString = 'hola';
 
@@ -73,8 +75,11 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-
+if (str1.lenght === str2.length){
+  return true
   
+}
+  return false
   
 }
 
@@ -249,7 +254,15 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  
+  if (letra.lenght > 1){
+    return "Dato incorrecto"
+  }
+  if (letra === "a" || letra=== "e" || letra=== "i" || letra=== "o" || letra=== "u"){
+    return "Es vocal"
+} else {
+  return "Dato incorrecto"
+}
+
 }
 
 
