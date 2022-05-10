@@ -8,10 +8,31 @@ img {
     height: 600px;
     width: 500px;
     background-color: green;
-    padding: 50px;
-    border: 20px solid blue;
+    padding: 10px;
+    border: 5px solid blue;
+    margin-top: 15px;
 }
 #spanId {
     font-size: 18px;
-    margin: 50px;
+    margin: 5px;
+}
+
+body {
+   background-image: 
+   url(https://st3.depositphotos.com/1000260/17950/i/600/depositphotos_179500740-stock-photo-fat-man-eating-fast-food.jpg);
+   text-align: center;
+   background-repeat:no-repeat;
+   background-size: cover;
+   background-position: center;
+   
+   
+}
+
+.divClasss{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.colorBlanco {
+    background-color: aliceblue;
 }
